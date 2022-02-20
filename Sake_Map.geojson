@@ -1,7 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "Drink_2018",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"name": "Sake_Map",
 "features": [
 { "type": "Feature", "properties": { "id": 1, "Brand": "鳳凰美田", "Specific_n": "無濾過本生純米吟醸酒", "Brewery": "小林酒造", "Rice": "愛山", "Ratio": 55, "Yeast": null, "Alcohol_de": 16, "Sake+-": null, "Impression": "フルーティな味わい。冷やすより常温に近い方が香り立つ。", "Sub_Brand": "Black Phenix", "BY": 2017, "Image": "sake_00001.jpg" }, "geometry": { "type": "Point", "coordinates": [ 139.769473060429135, 36.346058481163361 ] } },
 { "type": "Feature", "properties": { "id": 2, "Brand": "南", "Specific_n": "無濾過生原酒", "Brewery": "南酒造場", "Rice": "出羽燦々", "Ratio": 50, "Yeast": "高知酵母", "Alcohol_de": 17, "Sake+-": 8, "Impression": "香りは控えめだが、柔らかな酸味で辛口ながら爽やかな味わい。", "Sub_Brand": "純米吟醸出羽燦々", "BY": 2017, "Image": "sake_00002.jpg" }, "geometry": { "type": "Point", "coordinates": [ 133.98208126753309, 33.43886245329508 ] } },
