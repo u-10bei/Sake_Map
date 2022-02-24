@@ -43,7 +43,7 @@ const Layer_Sake_Map = new L.geoJson(json_Sake_Map, {
             + (feature.properties.Sake_de !== null ? '<tr><th scope="row">日本酒度</th><td>' + new Intl.NumberFormat("en-US", {signDisplay:'always'}).format(feature.properties.Sake_de) + '</td></tr>' : '')
             + '<tr><th scope="row">酒造年度</th><td>' + feature.properties.BY + '</td></tr>'
             + '<tr><th scope="row">感想</th><td>' + feature.properties.Impression + '</td></tr>'
-            + '<tr><th scope="row">画像</th><td>' + feature.properties.Image + '</td></tr>'
+            + '<tr><th scope="row">画像</th><td><img src="/img/sake/' + feature.properties.Image + '"</img></td></tr>'
             + '</table>'
         layer.bindPopup(popupContent, {maxHeight: 400})
         markers.addLayer(layer)
