@@ -33,7 +33,7 @@ const Layer_Sake_Map = new L.geoJson(json_Sake_Map, {
             + '「' + feature.properties.Brand + '」'
         layer.bindTooltip(Marker_T);
         const popupContent = '<table>' 
-            + '<tr><th scope="row">銘柄（商品名）</th><td>' + feature.properties.Brand + '（' + feature.properties.Sub_Brand + '）</td></tr>'
+            + '<tr><th scope="row" width="110">銘柄（商品名）</th><td width="220">' + feature.properties.Brand + '<br>（' + feature.properties.Sub_Brand + '）</td></tr>'
             + (feature.properties.Specific_n !== null ? '<tr><th scope="row">特定名称</th><td>' + feature.properties.Specific_n + '</td></tr>' : '')
             + '<tr><th scope="row">蔵元</th><td>' + feature.properties.Brewery + '</td></tr>'
             + (feature.properties.Rice !== null ? '<tr><th scope="row">使用米</th><td>' + feature.properties.Rice + '</td></tr>' : '')
